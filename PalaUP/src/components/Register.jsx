@@ -223,7 +223,7 @@ const Register = () => {
                     required
                     value={employeeData.name}
                     onChange={handleEmployeeChange}
-                    className="w-full pl-10 pr-4 py-3 bg-gray-700/50 border border-gray-600 rounded-lg focus-ring-2 focus-ring-amber-500 focus-outline-none text-white placeholder-gray-400"
+                    className="w-full pl-10 pr-4 py-3 bg-gray-700/50 border border-gray-600 rounded-lg focus-ring-2 focus-ring-amber-500 focus-outline-none text-gray-100 placeholder-gray-400"
                     placeholder="Tu nombre completo"
                   />
                 </div>
@@ -245,7 +245,7 @@ const Register = () => {
                     required
                     value={employeeData.email}
                     onChange={handleEmployeeChange}
-                    className="w-full pl-10 pr-4 py-3 bg-gray-700/50 border border-gray-600 rounded-lg focus-ring-2 focus-ring-amber-500 focus-outline-none text-white placeholder-gray-400"
+                    className="w-full pl-10 pr-4 py-3 bg-gray-700/50 border border-gray-600 rounded-lg focus-ring-2 focus-ring-amber-500 focus-outline-none text-gray-100 placeholder-gray-400"
                     placeholder="tu@email.com"
                   />
                 </div>
@@ -264,7 +264,7 @@ const Register = () => {
                   type="text"
                   value={employeeData.title}
                   onChange={handleEmployeeChange}
-                  className="w-full px-4 py-3 bg-gray-700/50 border border-gray-600 rounded-lg focus-ring-2 focus-ring-amber-500 focus-outline-none text-white placeholder-gray-400"
+                  className="w-full px-4 py-3 bg-gray-700/50 border border-gray-600 rounded-lg focus-ring-2 focus-ring-amber-500 focus-outline-none text-gray-100 placeholder-gray-400"
                   placeholder="Ej: Desarrollador Frontend"
                 />
               </div>
@@ -284,7 +284,7 @@ const Register = () => {
                     type="tel"
                     value={employeeData.phone}
                     onChange={handleEmployeeChange}
-                    className="w-full pl-10 pr-4 py-3 bg-gray-700/50 border border-gray-600 rounded-lg focus-ring-2 focus-ring-amber-500 focus-outline-none text-white placeholder-gray-400"
+                    className="w-full pl-10 pr-4 py-3 bg-gray-700/50 border border-gray-600 rounded-lg focus-ring-2 focus-ring-amber-500 focus-outline-none text-gray-100 placeholder-gray-400"
                     placeholder="+34 612 345 678"
                   />
                 </div>
@@ -303,7 +303,7 @@ const Register = () => {
                   type="text"
                   value={employeeData.location}
                   onChange={handleEmployeeChange}
-                  className="w-full px-4 py-3 bg-gray-700/50 border border-gray-600 rounded-lg focus-ring-2 focus-ring-amber-500 focus-outline-none text-white placeholder-gray-400"
+                  className="w-full px-4 py-3 bg-gray-700/50 border border-gray-600 rounded-lg focus-ring-2 focus-ring-amber-500 focus-outline-none text-gray-100 placeholder-gray-400"
                   placeholder="Madrid, España"
                 />
               </div>
@@ -324,7 +324,7 @@ const Register = () => {
                     required
                     value={employeeData.password}
                     onChange={handleEmployeeChange}
-                    className="w-full pl-10 pr-12 py-3 bg-gray-700/50 border border-gray-600 rounded-lg focus-ring-2 focus-ring-amber-500 focus-outline-none text-white placeholder-gray-400"
+                    className="w-full pl-10 pr-12 py-3 bg-gray-700/50 border border-gray-600 rounded-lg focus-ring-2 focus-ring-amber-500 focus-outline-none text-gray-100 placeholder-gray-400"
                     placeholder="••••••••"
                   />
                   <button
@@ -357,7 +357,7 @@ const Register = () => {
                     required
                     value={employeeData.confirmPassword}
                     onChange={handleEmployeeChange}
-                    className="w-full pl-10 pr-12 py-3 bg-gray-700/50 border border-gray-600 rounded-lg focus-ring-2 focus-ring-amber-500 focus-outline-none text-white placeholder-gray-400"
+                    className="w-full pl-10 pr-12 py-3 bg-gray-700/50 border border-gray-600 rounded-lg focus-ring-2 focus-ring-amber-500 focus-outline-none text-gray-100 placeholder-gray-400"
                     placeholder="••••••••"
                   />
                   <button
@@ -403,7 +403,7 @@ const Register = () => {
                     required
                     value={companyData.name}
                     onChange={handleCompanyChange}
-                    className="w-full pl-10 pr-4 py-3 bg-gray-700/50 border border-gray-600 rounded-lg focus-ring-2 focus-ring-amber-500 focus-outline-none text-white placeholder-gray-400"
+                    className="w-full pl-10 pr-4 py-3 bg-gray-700/50 border border-gray-600 rounded-lg focus-ring-2 focus-ring-amber-500 focus-outline-none text-gray-100 placeholder-gray-400"
                     placeholder="Nombre de tu empresa"
                   />
                 </div>
@@ -425,7 +425,7 @@ const Register = () => {
                     required
                     value={companyData.email}
                     onChange={handleCompanyChange}
-                    className="w-full pl-10 pr-4 py-3 bg-gray-700/50 border border-gray-600 rounded-lg focus-ring-2 focus-ring-amber-500 focus-outline-none text-white placeholder-gray-400"
+                    className="w-full pl-10 pr-4 py-3 bg-gray-700/50 border border-gray-600 rounded-lg focus-ring-2 focus-ring-amber-500 focus-outline-none text-gray-100 placeholder-gray-400"
                     placeholder="contacto@empresa.com"
                   />
                 </div>
@@ -445,7 +445,7 @@ const Register = () => {
                   required
                   value={companyData.industry}
                   onChange={handleCompanyChange}
-                  className="w-full px-4 py-3 bg-gray-700/50 border border-gray-600 rounded-lg focus-ring-2 focus-ring-amber-500 focus-outline-none text-white placeholder-gray-400"
+                  className="w-full px-4 py-3 bg-gray-700/50 border border-gray-600 rounded-lg focus-ring-2 focus-ring-amber-500 focus-outline-none text-gray-100 placeholder-gray-400"
                   placeholder="Ej: Tecnología, Salud, Finanzas"
                 />
               </div>
@@ -464,7 +464,7 @@ const Register = () => {
                   required
                   value={companyData.location}
                   onChange={handleCompanyChange}
-                  className="w-full px-4 py-3 bg-gray-700/50 border border-gray-600 rounded-lg focus-ring-2 focus-ring-amber-500 focus-outline-none text-white placeholder-gray-400"
+                  className="w-full px-4 py-3 bg-gray-700/50 border border-gray-600 rounded-lg focus-ring-2 focus-ring-amber-500 focus-outline-none text-gray-100 placeholder-gray-400"
                   placeholder="Madrid, España"
                 />
               </div>
@@ -484,7 +484,7 @@ const Register = () => {
                     type="url"
                     value={companyData.website}
                     onChange={handleCompanyChange}
-                    className="w-full pl-10 pr-4 py-3 bg-gray-700/50 border border-gray-600 rounded-lg focus-ring-2 focus-ring-amber-500 focus-outline-none text-white placeholder-gray-400"
+                    className="w-full pl-10 pr-4 py-3 bg-gray-700/50 border border-gray-600 rounded-lg focus-ring-2 focus-ring-amber-500 focus-outline-none text-gray-100 placeholder-gray-400"
                     placeholder="https://www.empresa.com"
                   />
                 </div>
@@ -505,7 +505,7 @@ const Register = () => {
                     type="tel"
                     value={companyData.phone}
                     onChange={handleCompanyChange}
-                    className="w-full pl-10 pr-4 py-3 bg-gray-700/50 border border-gray-600 rounded-lg focus-ring-2 focus-ring-amber-500 focus-outline-none text-white placeholder-gray-400"
+                    className="w-full pl-10 pr-4 py-3 bg-gray-700/50 border border-gray-600 rounded-lg focus-ring-2 focus-ring-amber-500 focus-outline-none text-gray-100 placeholder-gray-400"
                     placeholder="+34 91 123 4567"
                   />
                 </div>
@@ -527,7 +527,7 @@ const Register = () => {
                     required
                     value={companyData.password}
                     onChange={handleCompanyChange}
-                    className="w-full pl-10 pr-12 py-3 bg-gray-700/50 border border-gray-600 rounded-lg focus-ring-2 focus-ring-amber-500 focus-outline-none text-white placeholder-gray-400"
+                    className="w-full pl-10 pr-12 py-3 bg-gray-700/50 border border-gray-600 rounded-lg focus-ring-2 focus-ring-amber-500 focus-outline-none text-gray-100 placeholder-gray-400"
                     placeholder="••••••••"
                   />
                   <button
@@ -560,7 +560,7 @@ const Register = () => {
                     required
                     value={companyData.confirmPassword}
                     onChange={handleCompanyChange}
-                    className="w-full pl-10 pr-12 py-3 bg-gray-700/50 border border-gray-600 rounded-lg focus-ring-2 focus-ring-amber-500 focus-outline-none text-white placeholder-gray-400"
+                    className="w-full pl-10 pr-12 py-3 bg-gray-700/50 border border-gray-600 rounded-lg focus-ring-2 focus-ring-amber-500 focus-outline-none text-gray-100 placeholder-gray-400"
                     placeholder="••••••••"
                   />
                   <button

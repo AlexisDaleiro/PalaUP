@@ -85,7 +85,7 @@ const Header = () => {
                   value={searchQuery}
                   onChange={(e) => setSearchQuery(e.target.value)}
                   onKeyPress={handleKeyPress}
-                  className="w-full px-4 py-2 bg-gray-800 border border-gray-700 rounded-l-lg focus-ring-2 focus-ring-amber-500 focus-outline-none text-white placeholder-gray-400"
+                  className="w-full px-4 py-2 bg-gray-800 border border-gray-700 rounded-l-lg focus-ring-2 focus-ring-amber-500 focus-outline-none text-gray-100 placeholder-gray-400"
                 />
                 <button
                   type="submit"
@@ -151,7 +151,7 @@ const Header = () => {
                 value={searchQuery}
                 onChange={(e) => setSearchQuery(e.target.value)}
                 onKeyPress={handleKeyPress}
-                className="flex-1 px-4 py-2 bg-gray-800 border border-gray-700 rounded-l-lg focus-ring-2 focus-ring-amber-500 focus-outline-none text-white placeholder-gray-400"
+                className="flex-1 px-4 py-2 bg-gray-800 border border-gray-700 rounded-l-lg focus-ring-2 focus-ring-amber-500 focus-outline-none text-gray-100 placeholder-gray-400"
               />
               <button
                 type="submit"

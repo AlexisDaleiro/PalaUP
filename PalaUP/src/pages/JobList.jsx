@@ -70,7 +70,7 @@ const JobList = () => {
                   placeholder="Buscar empleos, empresas o habilidades..."
                   value={filters.search}
                   onChange={(e) => handleFilterChange("search", e.target.value)}
-                  className="w-full px-4 py-3 bg-gray-700/50 border border-gray-600 rounded-lg focus-ring-2 focus-ring-amber-500 focus-outline-none text-white placeholder-gray-400"
+                  className="w-full px-4 py-3 bg-gray-700/50 border border-gray-600 rounded-lg focus-ring-2 focus-ring-amber-500 focus-outline-none text-gray-100 placeholder-gray-400"
                 />
               </div>
 
@@ -83,7 +83,7 @@ const JobList = () => {
                   onChange={(e) =>
                     handleFilterChange("location", e.target.value)
                   }
-                  className="w-full px-4 py-3 bg-gray-700/50 border border-gray-600 rounded-lg focus-ring-2 focus-ring-amber-500 focus-outline-none text-white placeholder-gray-400"
+                  className="w-full px-4 py-3 bg-gray-700/50 border border-gray-600 rounded-lg focus-ring-2 focus-ring-amber-500 focus-outline-none text-gray-100 placeholder-gray-400"
                 />
               </div>
 
@@ -92,7 +92,7 @@ const JobList = () => {
                 <select
                   value={filters.type}
                   onChange={(e) => handleFilterChange("type", e.target.value)}
-                  className="w-full px-4 py-3 bg-gray-700/50 border border-gray-600 rounded-lg focus-ring-2 focus-ring-amber-500 focus-outline-none text-white"
+                  className="w-full px-4 py-3 bg-gray-700/50 border border-gray-600 rounded-lg focus-ring-2 focus-ring-amber-500 focus-outline-none text-gray-100"
                 >
                   <option value="">Tipo de empleo</option>
                   {jobTypes.map((type) => (

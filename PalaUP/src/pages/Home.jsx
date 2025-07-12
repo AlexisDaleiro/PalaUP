@@ -91,7 +91,7 @@ const Home = () => {
                     placeholder="¿Qué trabajo buscas?"
                     value={searchQuery}
                     onChange={(e) => setSearchQuery(e.target.value)}
-                    className="w-full px-4 py-4 bg-gray-700/50 border border-gray-600 rounded-xl focus-ring-2 focus-ring-amber-500 focus-outline-none text-white placeholder-gray-400 text-lg"
+                    className="w-full px-4 py-4 bg-gray-700/50 border border-gray-600 rounded-xl focus-ring-2 focus-ring-amber-500 focus-outline-none text-gray-100 placeholder-gray-400 text-lg"
                   />
                 </div>
                 <div className="flex-1">
@@ -100,7 +100,7 @@ const Home = () => {
                     placeholder="¿Dónde?"
                     value={location}
                     onChange={(e) => setLocation(e.target.value)}
-                    className="w-full px-4 py-4 bg-gray-700/50 border border-gray-600 rounded-xl focus-ring-2 focus-ring-amber-500 focus-outline-none text-white placeholder-gray-400 text-lg"
+                    className="w-full px-4 py-4 bg-gray-700/50 border border-gray-600 rounded-xl focus-ring-2 focus-ring-amber-500 focus-outline-none text-gray-100 placeholder-gray-400 text-lg"
                   />
                 </div>
                 <button
